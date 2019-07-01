@@ -11,11 +11,11 @@
         "correct": true
       },
       {
-        "value": "Tant pis",
+        "value": "je t'en prie",
         "correct": false
       },
       {
-        "value": "Salut!",
+        "value": "Salut",
         "correct": false
       }
     ]
@@ -32,11 +32,11 @@
         "correct": false
       },
       {
-        "value": "Tant pis",
+        "value": "je t'en prie",
         "correct": false
       },
       {
-        "value": "Salut!",
+        "value": "Salut",
         "correct": false
       }
     ]
@@ -53,17 +53,17 @@
         "correct": false
       },
       {
-        "value": "Tant pis",
+        "value": "je t'en prie",
         "correct": false
       },
       {
-        "value": "Salut!",
+        "value": "Salut",
         "correct": true
       }
     ]
   },
   {
-    "label": "What is 'you're welcome in french?",
+    "label": "What is 'you're welcome' in french?",
     "choices": [
       {
         "value": "Au revoir",
@@ -74,11 +74,11 @@
         "correct": false
       },
       {
-        "value": "Tant pis",
+        "value": "je t'en prie",
         "correct": true
       },
       {
-        "value": "Salut!",
+        "value": "Salut",
         "correct": false
       }
     ]

@@ -9,12 +9,12 @@ import { QuestionFormComponent } from './question-form/question-form.component';
 @NgModule({
   declarations: [
     AppComponent,
-    QuestionFormComponent,
-    ReactiveFormsModule
+    QuestionFormComponent
   ],
   imports: [
     BrowserModule,
-    HttpClientModule
+    HttpClientModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
