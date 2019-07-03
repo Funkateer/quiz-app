@@ -2,6 +2,7 @@ $primary-color: #5C6BC0;
 $secondary-color: #1ea896;
 $tertiary-color: white;
 $primary-font:'Ubuntu', sans-serif;
+$secondary-font: 'Source Sans Pro', sans-serif;
 
 mat-radio-group {
 display: flex;
@@ -9,12 +10,8 @@ flex-direction: column;
 margin: 15px 0;
 }
 
-.mat-radio-outer-circle{
-  border-style: none;
-}
-
 .label {
-  font-family: $primary-font;
+  font-family: $secondary-font;
   font-weight: 600;
   font-size: 24px;
   padding-top: 2%;

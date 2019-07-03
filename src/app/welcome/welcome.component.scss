@@ -4,8 +4,13 @@ $tertiary-color: white;
 $primary-font:'Ubuntu', sans-serif;
 $secondary-font: 'Source Sans Pro', sans-serif;
 
+h1{
+  margin: 0;
+  font-size: 4em;
+  font-family: $secondary-font
+}
+
 mat-card {
-  border-radius: 0px;
   width: 30%;
   display: inline-block;
   margin: auto;
@@ -27,7 +32,7 @@ mat-card-content {
 mat-card-title {
   font-family: $primary-font;
   font-weight: 600;
-  font-size: 24px;
+  font-size: 30px;
 }
 
 p {
@@ -39,22 +44,26 @@ p {
 .quizzes {
   display: flex;
   justify-content: space-between;
+  font-family: $primary-font;
 }
 
 .welcome {
   max-width: 80%;
-  padding: 5%;
-  padding-top: 2%;
+  padding: 2%;
   background-color: $tertiary-color;
   margin: auto;
   margin-top: 5%;
   text-align: center;
+  font-size: 1.2em;
 }
 a:visited {
   color: $secondary-color;
 }
 
 @media all and (max-width: 750px) {
+  h1{
+    font-size: 3em
+  }
   .quizzes {
     flex-direction: column;
   }
