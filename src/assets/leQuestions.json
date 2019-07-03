@@ -2,85 +2,37 @@
   {
     "label": "What is 'Hello' in french?",
     "choices": [
-      {
-        "value": "Au revoir",
-        "correct": false
-      },
-      {
-        "value": "Bonjour",
-        "correct": true
-      },
-      {
-        "value": "je t'en prie",
-        "correct": false
-      },
-      {
-        "value": "Salut",
-        "correct": false
-      }
+      { "value": "Au revoir", "correct": false },
+      { "value": "Bonjour", "correct": true },
+      { "value": "je t'en prie", "correct": false },
+      { "value": "Salut", "correct": false }
     ]
   },
   {
     "label": "What is 'Goodbye' in french?",
     "choices": [
-      {
-        "value": "Au revoir",
-        "correct": true
-      },
-      {
-        "value": "Bonjour",
-        "correct": false
-      },
-      {
-        "value": "je t'en prie",
-        "correct": false
-      },
-      {
-        "value": "Salut",
-        "correct": false
-      }
+      { "value": "Au revoir", "correct": true },
+      { "value": "Bonjour", "correct": false },
+      { "value": "je t'en prie", "correct": false },
+      { "value": "Salut", "correct": false }
     ]
   },
   {
     "label": "What is 'Hi' in french?",
     "choices": [
-      {
-        "value": "Au revoir",
-        "correct": false
-      },
-      {
-        "value": "Bonjour",
-        "correct": false
-      },
-      {
-        "value": "je t'en prie",
-        "correct": false
-      },
-      {
-        "value": "Salut",
-        "correct": true
-      }
+      { "value": "Au revoir", "correct": false },
+      { "value": "Bonjour", "correct": false },
+      { "value": "je t'en prie", "correct": false },
+      { "value": "Salut", "correct": true }
     ]
   },
   {
     "label": "What is 'you're welcome' in french?",
     "choices": [
-      {
-        "value": "Au revoir",
-        "correct": false
-      },
-      {
-        "value": "Bonjour",
-        "correct": false
-      },
-      {
-        "value": "je t'en prie",
-        "correct": true
-      },
-      {
-        "value": "Salut",
-        "correct": false
-      }
+      { "value": "Au revoir", "correct": false },
+      { "value": "Bonjour", "correct": false },
+      { "value": "je t'en prie", "correct": true },
+      { "value": "Salut", "correct": false }
     ]
   }
 ]
