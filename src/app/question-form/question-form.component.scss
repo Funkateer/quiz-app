@@ -1,8 +1,28 @@
-.form-group label {
-font-size: 18px;
-margin-right: 20px
+$primary-color: #5C6BC0;
+$secondary-color: #1ea896;
+$tertiary-color: white;
+$primary-font:'Ubuntu', sans-serif;
+
+mat-radio-group {
+display: flex;
+flex-direction: column;
+margin: 15px 0;
 }
 
-input{
-  margin-right: 7px
+.mat-radio-outer-circle{
+  border-style: none;
+}
+
+.label {
+  font-family: $primary-font;
+  font-weight: 600;
+  font-size: 24px;
+  padding-top: 2%;
+}
+
+@media all and (max-width: 750px) {
+  .label {
+    font-size: 18px;
+    font-weight: 600;
+  }
 }

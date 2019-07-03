@@ -1,11 +1,11 @@
 <div class="quiz" *ngIf="question">
-  <h1>{{question.label}}</h1>
+  <div class="label">{{question.label}}</div>
   <form [formGroup]="form">
-    <div class="form-group">
+    <mat-radio-group aria-label="form-group" formControlName="choice">
       <label *ngFor="let choice of question.choices">
-        <input type="radio" [value]="choice" formControlName="choice">
-        <span>{{choice.value}}</span>
+        <mat-radio-button [value]="choice">
+          {{choice.value}}</mat-radio-button>
       </label>
-    </div>
+    </mat-radio-group>
   </form>
 </div>
