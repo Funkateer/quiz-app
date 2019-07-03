@@ -10,6 +10,9 @@ import { ResultsComponent } from './results/results.component';
 import { QuestionsComponent } from './questions/questions.component';
 import { WelcomeComponent } from './welcome/welcome.component';
 
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { MatRadioModule, MatButtonModule, MatCardModule } from '@angular/material';
+
 const appRoutes: Routes = [
   { path: 'welcome', component: WelcomeComponent },
   { path: ':quizId', component: QuestionsComponent },
@@ -28,6 +31,10 @@ const appRoutes: Routes = [
     BrowserModule,
     HttpClientModule,
     ReactiveFormsModule,
+    BrowserAnimationsModule,
+    MatCardModule,
+    MatButtonModule,
+    MatRadioModule,
     RouterModule.forRoot(appRoutes)
   ],
   providers: [],
