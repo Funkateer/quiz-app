@@ -3,4 +3,6 @@
   <div class="answer" *ngFor="let a of answers.values" [ngClass]="{correct: a.correct}">
     {{a.value}}
   </div>
+  <a routerLink="/welcome" class="btn btn-primary">Choose another quiz</a>
+
 </div>

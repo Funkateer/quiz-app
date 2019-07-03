@@ -8,6 +8,7 @@ import { AppComponent } from './app.component';
 import { QuestionFormComponent } from './question-form/question-form.component';
 import { ResultsComponent } from './results/results.component';
 import { QuestionsComponent } from './questions/questions.component';
+import { WelcomeComponent } from './welcome/welcome.component';
 
 const appRoutes: Routes = [
   { path: 'welcome', component: WelcomeComponent },
@@ -20,7 +21,8 @@ const appRoutes: Routes = [
     AppComponent,
     QuestionFormComponent,
     ResultsComponent,
-    QuestionsComponent
+    QuestionsComponent,
+    WelcomeComponent
   ],
   imports: [
     BrowserModule,

@@ -1,1 +1,19 @@
-<p>questions works!</p>
+<div *ngIf="quiz && !questions" class="spinner-grow text-primary"></div>
+
+<div class="quiz" *ngIf="questions">
+
+  <div class="questions" *ngIf="!showResults">
+    <app-question-form
+      [question]="questions[currentQuestionIndex]"
+      (onChoiceMade)="updateChoice($event)">
+    </app-question-form>
+
+    <button
+      class="btn btn-success"
+      (click)="nextOrViewResults()"
+      [disabled]="!answers.values[currentQuestionIndex]"
+    >{{currentQuestionIndex === questions.length - 1 ? 'View results' : 'Next'}}</button>
+  </div>
+
+  <app-results *ngIf="showResults" [answers]="answers"></app-results>
+</div>
