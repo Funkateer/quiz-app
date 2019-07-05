@@ -12,9 +12,9 @@ export class WelcomeComponent {
 
   constructor(private questionsService: QuestionsService) {
     this.questionsService.getQuizzes()
-      .subscribe(quiz => {
-        this.quiz = quiz;
-      });
+    .subscribe(quiz => {
+      this.quiz = quiz;
+    });
   }
 
   reset() {
