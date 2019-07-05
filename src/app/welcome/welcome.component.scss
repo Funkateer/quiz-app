@@ -4,11 +4,6 @@ $tertiary-color: white;
 $primary-font:'Ubuntu', sans-serif;
 $secondary-font: 'Source Sans Pro', sans-serif;
 
-h1{
-  margin: 0;
-  font-size: 4em;
-  font-family: $secondary-font
-}
 
 mat-card {
   width: 30%;
@@ -35,11 +30,7 @@ mat-card-title {
   font-size: 30px;
 }
 
-p {
-  text-align: left;
-  width: 90%;
-  margin: auto
-}
+
 
 .quizzes {
   display: flex;
@@ -55,9 +46,6 @@ p {
   margin-top: 5%;
   text-align: center;
   font-size: 1.2em;
-}
-a:visited {
-  color: $secondary-color;
 }
 
 @media all and (max-width: 750px) {
