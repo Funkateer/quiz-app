@@ -13,15 +13,15 @@ import { Quiz, Answers, Choice, Question } from '../quiz.model';
 })
 export class QuestionsComponent implements OnInit {
 
-  private quiz: Quiz;
-  private answers: Answers;
-  private questions: Question[];
-  private currentQuestionIndex: number;
+  quiz: Quiz;
+  answers: Answers;
+  questions: Question[];
+  currentQuestionIndex: number;
 
-  private showResults = false;
+  showResults = false;
 
   // inject both the active route and the questions service
-  constructor(private route: ActivatedRoute, private questionsService: QuestionsService) {}
+  constructor(private route: ActivatedRoute, public questionsService: QuestionsService) {}
 
   ngOnInit() {
 
