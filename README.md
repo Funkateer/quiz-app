@@ -11,8 +11,8 @@ To see the app in action, go to (https://funkateer.github.io/quiz-app/)
 
 
 ## Features
-few questions about French and Math
-Show the the answers and score
+- Questions about French and Math
+- Show the the answers and score
 
 
 ## Tech/framework used
