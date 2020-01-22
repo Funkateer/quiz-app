@@ -12,7 +12,7 @@ To see the app in action, go to (https://funkateer.github.io/quiz-app/)
 
 ## Features
 - Questions about French and Math
-- Show the the answers and score
+- Show the the answers and final score
 
 
 ## Tech/framework used
@@ -20,6 +20,7 @@ To see the app in action, go to (https://funkateer.github.io/quiz-app/)
 Angular2
 Material
 ```
+
 
 ## Installation
 his project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.0.6.
@@ -68,7 +69,7 @@ Project Link: https://github.com/Funkateer/quiz-app
 
 
 ## Contact
-Alaeddin Abugrara - [website](http://www.alabugrara.com) - [@twitter](https://twitter.com/twitter_handle) - [Github](https://github.com/Funkateer) - [Linked-in](https://www.linkedin.com/in/al%C3%A0-eddin-abugrara-214ba5115/)
+Alà Eddin Abugrara - [website](http://www.alabugrara.com) - [@twitter](https://twitter.com/twitter_handle) - [Github](https://github.com/Funkateer) - [Linked-in](https://www.linkedin.com/in/al%C3%A0-eddin-abugrara-214ba5115/)
 
 
 <!-- Markdown links & imgs  -->
