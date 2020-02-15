@@ -3,7 +3,7 @@ A simple French and Math quiz app! Although simple this app shows my interest in
 
 
 ## Screenshots
-![screenshot](https://alabugrara.com/img/quiz-app-poster.png)
+![screenshot](https://alabugrara.com/img/poster-quiz-app.png)
 
 
 ## Live Demo
